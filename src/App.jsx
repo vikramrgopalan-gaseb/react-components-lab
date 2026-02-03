@@ -5,8 +5,6 @@ import './App.css'
 
   // src/App.jsx
 
-  // NEED TO CREATE WEATHERFORECAST FOLDER AND FILES //
-
 const App = () => {
 
   return (
