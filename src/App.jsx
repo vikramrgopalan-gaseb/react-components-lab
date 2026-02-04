@@ -48,7 +48,6 @@ import WeatherForecast from './components/WeatherForecast/WeatherForecast'
 
   return (
     <>
-    <h1>Hello world!</h1>
     <h1>Local Weather</h1>
     <section>
        <ul>
