@@ -4,12 +4,13 @@ function WeatherForecast (props) {
     const { day } = props
     return (
         <>
-            <li>
-                <h3>It is: {day.day}</h3>
-                <p>The forecast is: {day.conditions}</p>
-                <p>The time is: {day.time}</p>
-            </li>
-        </>
+            <div className="weather">
+                <h2>{day.day}</h2>
+                <img src={day.img} alt={day.imgAlt} />
+                <p><span>conditions: </span>{day.conditions}</p>
+                <p><span>time: </span>{day.time}</p>
+            </div>
+        </> 
     )
 }
 

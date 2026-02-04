@@ -4,8 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import WeatherForecast from './components/WeatherForecast/WeatherForecast'
 
-  // src/App.jsx
-
   const App = () => {
   
   const weatherForecasts = [
@@ -50,11 +48,9 @@ import WeatherForecast from './components/WeatherForecast/WeatherForecast'
     <>
     <h1>Local Weather</h1>
     <section>
-       <ul>
         {weatherForecasts.map((weather) => 
           <WeatherForecast key={weather.day} day={weather}/>
         )}
-      </ul>
     </section>
   </>
   );
