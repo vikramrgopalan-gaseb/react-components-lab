@@ -52,7 +52,7 @@ import WeatherForecast from './components/WeatherForecast/WeatherForecast'
     <section>
        <ul>
         {weatherForecasts.map((weather) => 
-          <WeatherForecast key={weather.day}/>
+          <WeatherForecast key={weather.day} day={weather}/>
         )}
       </ul>
     </section>
